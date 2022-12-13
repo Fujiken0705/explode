@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "065A126D-DF4B-43AC-B31F-8C1986DBA4C2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A75183AC-8890-439D-A164-70478040738B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "explode!/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A75183AC-8890-439D-A164-70478040738B - 4647352a7d7d8167"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "explode_.ViewController.bombImage.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "explode!"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kento/Desktop/Development/explode!/explode!/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "A75183AC-8890-439D-A164-70478040738B - 31c7284ae373bd6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "explode_.ViewController.bombImage.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "explode!"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kento/Desktop/Development/explode!/explode!/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "A75183AC-8890-439D-A164-70478040738B - fae543bd1a4a3678"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "explode_.ViewController.bombImage.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "explode!"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kento/Desktop/Development/explode!/explode!/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "A75183AC-8890-439D-A164-70478040738B - c7eacf3f9f1326b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "explode_.ViewController.bombImage.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "explode!"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kento/Desktop/Development/explode!/explode!/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "A75183AC-8890-439D-A164-70478040738B - 949237ed3a11a34a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "explode_.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; explode_.ViewController"
+                  moduleName = "explode!"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kento/Desktop/Development/explode!/explode!/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "A75183AC-8890-439D-A164-70478040738B - d0ecc88a15cd5704"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "explode_.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;explode_.ViewController&gt;"
+                  moduleName = "explode!"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kento/Desktop/Development/explode!/explode!/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "137">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
