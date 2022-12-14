@@ -6,10 +6,12 @@
 //
 
 import UIKit
+import AVFoundation
 
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, AVAudioPlayerDelegate {
     
+    var player: AVAudioPlayer!
     var explodecount = 0
     var explodefunc = 0
     
@@ -23,10 +25,16 @@ class ViewController: UIViewController {
     }
 
     @IBAction func pushButton(_ sender: UIButton) {
+        sender.alpha = 0.5
+                
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            sender.alpha = 1.0
+        }
         
         explodefunc = Int.random(in:0...19)
         
         if explodefunc == 7{
+            playSound(name: "game_explosion9")
             bombImage.image = #imageLiteral(resourceName: "bakuha")
             countLabel.text = "GAMEOVER"
             
@@ -38,6 +46,23 @@ class ViewController: UIViewController {
             
         }
     }
+    
+    func playSound(name: String) {
+        guard let path = Bundle.main.path(forResource: "game_explosion9", ofType: "mp3") else {
+            print("音源ファイルが見つかりません")
+            return
+        }
+
+        do {
+            player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: path))
+            player.delegate = self
+            player.play()
+        } catch {
+        }
+    }
+    
+    
+    
     
     
 }

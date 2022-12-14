@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D700567F29498F000085EE11 /* game_explosion9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D700567E29498F000085EE11 /* game_explosion9.mp3 */; };
 		D78710B529461427007FB543 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78710B429461427007FB543 /* AppDelegate.swift */; };
 		D78710B729461427007FB543 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78710B629461427007FB543 /* SceneDelegate.swift */; };
 		D78710B929461427007FB543 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78710B829461427007FB543 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D700567E29498F000085EE11 /* game_explosion9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = game_explosion9.mp3; path = ../../../../Downloads/game_explosion9.mp3; sourceTree = "<group>"; };
 		D78710B129461427007FB543 /* explode!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "explode!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78710B429461427007FB543 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D78710B629461427007FB543 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				D78710BD2946142B007FB543 /* Assets.xcassets */,
 				D78710BF2946142B007FB543 /* LaunchScreen.storyboard */,
 				D78710C22946142B007FB543 /* Info.plist */,
+				D700567E29498F000085EE11 /* game_explosion9.mp3 */,
 			);
 			path = "explode!";
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D700567F29498F000085EE11 /* game_explosion9.mp3 in Resources */,
 				D78710C12946142B007FB543 /* LaunchScreen.storyboard in Resources */,
 				D78710BE2946142B007FB543 /* Assets.xcassets in Resources */,
 				D78710BC29461427007FB543 /* Main.storyboard in Resources */,
