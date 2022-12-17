@@ -62,6 +62,15 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     
+    @IBAction func resetButton(_ sender: UIButton) {
+        explodecount = 0
+        explodefunc = 0
+        gameoverfunc = 0
+        countLabel.text = "0"
+        bombImage.image = #imageLiteral(resourceName: "bakudan")
+        
+    }
+    
     
     
     
