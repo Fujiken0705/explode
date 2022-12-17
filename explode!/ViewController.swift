@@ -14,6 +14,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     var player: AVAudioPlayer!
     var explodecount = 0
     var explodefunc = 0
+    var gameoverfunc = 0
     
     @IBOutlet weak var countLabel: UILabel!
     @IBOutlet weak var bombImage: UIImageView!
@@ -26,27 +27,26 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
 
     @IBAction func pushButton(_ sender: UIButton) {
         sender.alpha = 0.5
-                
+        
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
             sender.alpha = 1.0
         }
         
         explodefunc = Int.random(in:0...19)
-        
-        if explodefunc == 7{
-            playSound(name: "game_explosion9")
-            bombImage.image = #imageLiteral(resourceName: "bakuha")
-            countLabel.text = "GAMEOVER"
-            
-        }
-        else{
-            explodecount += 1
-            let  counter = String( explodecount )
-            countLabel.text = counter
-            
+        if gameoverfunc == 0{
+            if explodefunc == 7{
+                playSound(name: "game_explosion9")
+                bombImage.image = #imageLiteral(resourceName: "bakuha")
+                gameoverfunc = 1
+                countLabel.text = "GAMEOVER"
+            }
+            else{
+                explodecount += 1
+                let  counter = String( explodecount )
+                countLabel.text = counter
+            }
         }
     }
-    
     func playSound(name: String) {
         guard let path = Bundle.main.path(forResource: "game_explosion9", ofType: "mp3") else {
             print("音源ファイルが見つかりません")
